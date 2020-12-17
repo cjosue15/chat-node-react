@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+:root {
+    --dark: #1a202c;
+    --green: #3adbb9;
+}
+
+body {
+    background-color: var(--dark);
+    font-family: 'Poppins', sans-serif;
+}
+
+#root {
+    min-height: 100vh;
+}
