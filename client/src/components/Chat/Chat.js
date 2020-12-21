@@ -25,7 +25,9 @@ export const Chat = ({ location }) => {
         socket = io(ENDPOINT);
 
         socket.emit('join', { name, room }, (error) => {
-            console.log(`error ${error}`);
+            if (error) {
+                console.log(`error ${error}`);
+            }
         });
 
         return () => {
