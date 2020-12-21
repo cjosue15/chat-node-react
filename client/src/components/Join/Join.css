@@ -76,3 +76,13 @@
 .join__form .btn:hover {
     background: #11b391;
 }
+
+@media screen and (max-width: 550px) {
+    .join figure {
+        display: none;
+    }
+
+    .join__content {
+        grid-template-columns: 1fr;
+    }
+}

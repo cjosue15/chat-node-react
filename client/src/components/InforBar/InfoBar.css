@@ -1,0 +1,24 @@
+.infoBar {
+    /* background: #edf0f4; */
+    background: var(--green-best);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.infoBar-left span {
+    font-weight: bold;
+    color: inherit;
+}
+
+.infoBar-right a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.chat {
+    min-height: 100vh;
+    /* background: #fff; */
+    /* background: #d8d8d8; */
+    background: #abc5c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 0 2em;
+    margin: 0 auto;
+    max-width: calc(1200px - 2em);
+    width: 100%;
+}
+
+.chat__container {
+    display: flex;
+    justify-content: center;
+    padding: 5em 0;
+}
+
+.chat__content {
+    background: #edf0f4;
+    height: 550px;
+    width: 450px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow);
+}

@@ -1,0 +1,11 @@
+.participants {
+    flex: 1 1 auto;
+    overflow: auto;
+}
+
+.participants ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style: none;
+}

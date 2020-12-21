@@ -1,0 +1,39 @@
+.message {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.message.start {
+    align-items: flex-start;
+}
+
+.message.end {
+    align-items: flex-end;
+}
+
+.message__box {
+    max-width: 80%;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.message__box.white {
+    background: #fff;
+}
+
+.message__box.gray {
+    background: #b5bac9;
+}
+
+.message .sent__message {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.message p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 15px;
+}
