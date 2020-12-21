@@ -6,7 +6,7 @@ import { InfoBar } from '../InforBar/InfoBar';
 import { Messages } from '../Messages/Messages';
 import { Input } from '../Input/Input';
 import { Sidebar } from '../Sidebar/Sidebar';
-const ENDPOINT = 'localhost:5000';
+const ENDPOINT = 'https://chat-app-backend-node.herokuapp.com/';
 
 let socket;
 
